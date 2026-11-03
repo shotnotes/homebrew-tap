@@ -7,7 +7,12 @@ at [shotnotes/support](https://github.com/shotnotes/support/releases).
 
 ```
 brew tap shotnotes/tap
+brew trust shotnotes/tap
 ```
+
+Recent versions of Homebrew refuse to load anything from a tap they have not been
+told to trust, and `brew trust` tells them so. Skip it if your Homebrew does not
+have that command.
 
 ## The command-line tool
 
