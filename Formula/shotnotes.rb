@@ -9,19 +9,19 @@ class Shotnotes < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/shotnotes/support/releases/download/v0.1.0/shotnotes-0.1.0-macos-arm64.tar.gz"
-      sha256 "d1292cea51012049f35a2315bfd0fff3765382d80a9c8bc2ccda6431b407d687"
+      url "https://github.com/shotnotes/support/releases/download/v0.1.1/shotnotes-0.1.1-macos-arm64.tar.gz"
+      sha256 "6e664166b980e64c371a4a19eba879f9575a56999a8a17216ea07d532e370e7c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/shotnotes/support/releases/download/v0.1.0/shotnotes-0.1.0-linux-x64.tar.gz"
-      sha256 "e68b496f2c2b8c04c9c53c99806f0491a11026aca20a3f437067ef38e06d55b2"
+      url "https://github.com/shotnotes/support/releases/download/v0.1.1/shotnotes-0.1.1-linux-x64.tar.gz"
+      sha256 "8dd311f003204395a7ee207d4653e1c1e83ca3f00390029d6e4dba8cbd6dd678"
     end
     on_arm do
-      url "https://github.com/shotnotes/support/releases/download/v0.1.0/shotnotes-0.1.0-linux-arm64.tar.gz"
-      sha256 "65c25f3d3e72f40401d3323901530f422bfa4f517670e64895cc05ccee1a725f"
+      url "https://github.com/shotnotes/support/releases/download/v0.1.1/shotnotes-0.1.1-linux-arm64.tar.gz"
+      sha256 "05b51d3652abe52dcfd5e120df615ca96fb945e53927a20e12b9a1c1a300278d"
     end
   end
 

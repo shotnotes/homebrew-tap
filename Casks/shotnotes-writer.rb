@@ -1,6 +1,6 @@
 cask "shotnotes-writer" do
-  version "0.1.0"
-  sha256 "0c489d7de3c1ea359dee8f2bb76ff24cd6947055c9ce4c91a91b77262d6c1c19"
+  version "0.1.1"
+  sha256 "76a9f25c072b69b433504b7bc43e6a2c8634ff7867421fd5fce4e99fcca1451c"
 
   url "https://github.com/shotnotes/support/releases/download/v#{version}/shotnotes-writer-#{version}-macos-arm64.zip"
   name "Shot Notes Writer"
